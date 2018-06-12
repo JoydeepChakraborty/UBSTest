@@ -1,0 +1,41 @@
+package com.ubs.opsit.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+import com.ubs.opsit.interviews.BerlinClock;
+import com.ubs.opsit.interviews.TimeConverter;
+import com.ubs.opsit.time.CalculatedBerlinTime;
+
+public class TestCalculateBerlinTime {
+
+	private TimeConverter convert=new BerlinClock();
+	
+	@Test
+	public void testHour() {
+
+		CalculatedBerlinTime calculatedTime=convert.convertTime("24:00:00");
+		assertEquals("RRRR\nRRRR", calculatedTime.getBerlinHour());
+	}
+	
+	@Test
+	public void testMinute() {
+
+		CalculatedBerlinTime calculatedTime=convert.convertTime("24:00:00");
+		assertEquals("OOOOOOOOOOOO\nOOOO", calculatedTime.getBerlinMinute());
+	
+	}
+	
+	@Test
+	public void testSecond() {
+
+		CalculatedBerlinTime calculatedTime=convert.convertTime("24:00:00");
+		assertEquals("O", calculatedTime.getBerlinSecond());
+	
+	
+	}
+	
+
+
+}

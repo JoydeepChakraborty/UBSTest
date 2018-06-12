@@ -1,0 +1,8 @@
+package com.ubs.opsit.time;
+
+import com.ubs.opsit.exception.InvalidTimeException;
+
+public interface Time {
+
+	void calculatedString(int time)  throws InvalidTimeException;
+}

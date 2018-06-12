@@ -1,0 +1,6 @@
+package com.ubs.opsit.time;
+
+public interface Time {
+
+	void calculatedString(int time);
+}

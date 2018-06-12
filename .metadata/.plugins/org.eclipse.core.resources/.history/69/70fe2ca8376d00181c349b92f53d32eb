@@ -1,0 +1,27 @@
+package com.ubs.opsit.execute;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+import com.ubs.opsit.interviews.BerlinClock;
+import com.ubs.opsit.interviews.TimeConverter;
+
+class A{
+	
+	A(int a,int b){}
+}
+
+class A{
+	
+	A(int a,int b){}
+}
+
+public class CalculateTime {
+	
+	public static void main(String args[]){
+		TimeConverter convert=new BerlinClock();
+		
+		convert.convertTime("15:30:18");
+	}
+}

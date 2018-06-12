@@ -1,0 +1,45 @@
+package com.ubs.opsit.time;
+
+public class Minutes implements Time{
+
+	@Override
+	public void calculatedString(int time) {
+
+
+		String evaluatedFirstRow = "";
+		String evaluatedSecondRow = "";
+		int SUBTRACTING_ELEMENT = 1;
+		int c=0;
+		if (time > 15) {
+			SUBTRACTING_ELEMENT = 15;
+		}
+		else if(time >=5 && time <15){
+			SUBTRACTING_ELEMENT = 5;
+		}
+
+		while (time > 0) {
+			if (time >= 15) {
+				evaluatedFirstRow += "YYR";
+			} 
+			else if(time >=5 && time <15){
+				SUBTRACTING_ELEMENT = 1;
+				evaluatedFirstRow+="Y";
+			}
+			else {
+				if(++c==1)
+				{System.out.println();}
+				
+				SUBTRACTING_ELEMENT = 1;
+				evaluatedSecondRow += "R";
+			}
+
+			time = time - SUBTRACTING_ELEMENT;
+		}
+		
+		System.out.println(evaluatedFirstRow);
+		
+		System.out.println(evaluatedSecondRow);
+	
+	}
+
+}

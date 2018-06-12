@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Date"/>
+<fullyQualifiedTypeName name="java.text.SimpleDateFormat"/>
+<fullyQualifiedTypeName name="java.util.regex.Pattern"/>
+<fullyQualifiedTypeName name="java.sql.Time"/>
+<fullyQualifiedTypeName name="java.util.regex.Matcher"/>
+<fullyQualifiedTypeName name="com.ubs.opsit.interviews.TimeConverter"/>
+<fullyQualifiedTypeName name="com.ubs.opsit.interviews.BerlinClock"/>
+<fullyQualifiedTypeName name="com.ubs.opsit.time.Hours"/>
+<fullyQualifiedTypeName name="com.ubs.opsit.time.Minutes"/>
+</qualifiedTypeNameHistroy>

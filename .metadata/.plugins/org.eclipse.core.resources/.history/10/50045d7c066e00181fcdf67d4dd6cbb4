@@ -1,0 +1,23 @@
+package com.ubs.opsit.test;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class TestCalculateBerlinTime {
+
+	@Test
+	public void testHour() {
+
+		
+	
+	}
+	
+	@Test
+	public void testMinute() {
+
+		
+	
+	}
+
+}

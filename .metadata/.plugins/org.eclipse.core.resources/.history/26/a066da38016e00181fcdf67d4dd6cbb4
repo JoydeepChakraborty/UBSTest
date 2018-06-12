@@ -1,0 +1,39 @@
+package com.ubs.opsit.interviews;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Calendar;
+import java.util.Date;
+import java.util.Locale;
+
+import com.ubs.opsit.time.Hours;
+import com.ubs.opsit.time.Minutes;
+
+public class BerlinClock implements TimeConverter {
+
+	private Hours hours;
+	private Minutes minutes;
+	
+	@Override
+	public void convertTime(String inputTime) {
+		TimeConverter timeConverter = new BerlinClock();
+  
+		if(validateTime(inputTime)){
+			
+			hours=new Hours();
+			hours.calculatedString(Integer.parseInt(inputTime.split(":")[0]));
+			
+			minutes=new Minutes();
+			minutes.calculatedString(Integer.parseInt(inputTime.split(":")[1]));
+		}
+
+	}
+
+
+	private boolean validateTime(String inputTime) {
+		// TODO Auto-generated method stub
+		return false;
+	}
+
+
+}

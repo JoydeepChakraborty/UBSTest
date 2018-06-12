@@ -1,0 +1,9 @@
+package com.ubs.opsit.interviews;
+
+import com.ubs.opsit.exception.InvalidTimeException;
+
+public interface TimeConverter {
+
+    public void convertTime(String aTime)  throws InvalidTimeException;
+
+}

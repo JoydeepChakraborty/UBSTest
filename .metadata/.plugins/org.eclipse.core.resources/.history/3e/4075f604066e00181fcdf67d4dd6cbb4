@@ -1,0 +1,15 @@
+package com.ubs.opsit.interviews;
+
+import com.ubs.opsit.exception.InvalidTimeException;
+
+public interface TimeConverter {
+
+	/**
+	 * Calculate berling time
+	 * @param aTime
+	 * @return
+	 * @throws InvalidTimeException
+	 */
+    public CalculatedBerlinTime convertTime(String aTime)  throws InvalidTimeException;
+
+}

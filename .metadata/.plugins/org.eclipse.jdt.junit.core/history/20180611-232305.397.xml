@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="TestCalculateBerlinTime" project="java-berlin-clock" tests="3" started="3" failures="0" errors="0" ignored="0">
+  <testsuite name="com.ubs.opsit.test.TestCalculateBerlinTime" time="0.001">
+    <testcase name="testTime1" classname="com.ubs.opsit.test.TestCalculateBerlinTime" time="0.0"/>
+    <testcase name="testTime2" classname="com.ubs.opsit.test.TestCalculateBerlinTime" time="0.001"/>
+    <testcase name="testTime3" classname="com.ubs.opsit.test.TestCalculateBerlinTime" time="0.0"/>
+  </testsuite>
+</testrun>

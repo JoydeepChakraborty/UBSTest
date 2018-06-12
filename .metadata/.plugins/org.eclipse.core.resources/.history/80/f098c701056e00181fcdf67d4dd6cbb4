@@ -1,0 +1,16 @@
+package com.ubs.opsit.time;
+
+public class Seconds  implements Time{
+
+	/**
+	 * TO CALCULATE SECOND REPRESENTATION
+	 */
+	@Override
+	public void calculatedString(int time) {
+		if(time%2==0)
+			System.out.println("Y");
+		else
+			System.out.println("O");
+	}
+
+}

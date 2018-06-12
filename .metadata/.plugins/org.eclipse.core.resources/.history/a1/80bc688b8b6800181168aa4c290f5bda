@@ -1,0 +1,30 @@
+package com.ubs.opsit.interviews;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class CalculateTime {
+	
+	public void calculateBerlinTime(){
+		TimeConverter timeConverter=new BerlinClock();
+		
+		getTime("13:53");
+		
+	}
+
+	public void getTime(String time){
+		
+		SimpleDateFormat formatter=new SimpleDateFormat("hh:mm:ss");
+		
+		Date date = null;
+		try {
+			date = formatter.parse(time);
+		} catch (ParseException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+		System.out.println(date.getHours());
+		
+	}
+}

@@ -1,0 +1,10 @@
+package com.ubs.opsit.interviews;
+
+public class CalculateTime {
+	
+	public void calculateBerlinTime(){
+		
+		
+	}
+
+}

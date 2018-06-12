@@ -1,0 +1,8 @@
+package com.ubs.opsit.time;
+
+public class CalculatedBerlinTime {
+
+	private String berlinHour;
+	private String berlinMinute;
+	private String berlinSecond;
+}

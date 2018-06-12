@@ -1,0 +1,22 @@
+package com.ubs.opsit.time;
+
+public class Hours  implements Time{
+
+	@Override
+	public String calculatedString(int time) {
+	
+		String evaluatedHours = "";
+		
+		if(time>5){
+			while(time>=5)
+			{
+				time=time-5;
+				evaluatedHours+="R";
+			}
+		}
+		else{
+			
+		}
+	}
+
+}

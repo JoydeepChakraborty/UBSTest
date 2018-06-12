@@ -1,0 +1,5 @@
+package com.ubs.opsit.exception;
+
+public class InvalidTimeException extends Exception {
+
+}

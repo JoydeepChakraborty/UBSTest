@@ -1,0 +1,14 @@
+package com.ubs.opsit.interviews;
+
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
+public class CalculateTime {
+	
+	public static void main(String args[]){
+		TimeConverter cnvrt=new BerlinClock();
+		
+		cnvrt.convertTime("13:43")
+	}
+}

@@ -1,0 +1,19 @@
+package com.ubs.opsit.interviews;
+
+import java.util.Date;
+
+public class CalculateTime {
+	
+	public void calculateBerlinTime(){
+		TimeConverter timeConverter=new BerlinClock();
+		
+		
+		
+	}
+
+	public Date getTime(String time){
+		
+		
+		
+	}
+}

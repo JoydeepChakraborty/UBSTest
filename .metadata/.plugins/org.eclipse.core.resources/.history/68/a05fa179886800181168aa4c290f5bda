@@ -1,0 +1,12 @@
+package com.ubs.opsit.interviews;
+
+public class CalculateTime {
+	
+	public void calculateBerlinTime(){
+		TimeConverter timeConverter=new BerlinClock();
+		
+		
+		
+	}
+
+}

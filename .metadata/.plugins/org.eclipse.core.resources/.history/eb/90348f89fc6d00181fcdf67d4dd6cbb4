@@ -1,0 +1,10 @@
+package com.ubs.opsit.time;
+
+public class Minutes implements Time{
+
+	@Override
+	public void calculatedString(int time) {
+		// TODO Auto-generated method stub
+	}
+
+}

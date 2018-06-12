@@ -1,0 +1,7 @@
+package com.ubs.opsit.interviews;
+
+public interface TimeConverter {
+
+    public void convertTime(String aTime);
+
+}
